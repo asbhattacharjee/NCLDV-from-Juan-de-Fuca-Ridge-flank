@@ -1,0 +1,462 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Dec 20 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    nid00494 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s NCVOGs5_references_mafft01.concat.faa -m LG+F+R8 -alrt 1000 -bb 1000 -nt AUTO -redo
+Seed:    234384 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Feb  2 11:49:15 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file NCVOGs5_references_mafft01.concat.faa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 172 sequences with 5431 columns, 5424 distinct patterns
+5247 parsimony-informative, 111 singleton sites, 73 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  vSAG8         62.18%    failed      0.00%
+   2  vSAG1         64.35%    failed      0.00%
+   3  Nama          57.78%    failed      0.00%
+   4  Yasm          57.63%    failed      0.02%
+   5  Homa          62.49%    failed      0.00%
+   6  Tupa          33.86%    failed      0.00%
+   7  Momo          31.39%    failed      0.00%
+   8  Saud          30.92%    failed      0.00%
+   9  Mesh          31.03%    failed      0.00%
+  10  Meg1          32.66%    failed      0.00%
+  11  Meba          31.03%    failed      0.00%
+  12  Met4          31.03%    failed      0.00%
+  13  Mvit          31.03%    failed      0.00%
+  14  Band          31.03%    failed      0.00%
+  15  Mech          31.03%    failed      0.00%
+  16  Afro          31.03%    failed      0.00%
+  17  MiSH          35.76%    failed      0.00%
+  18  Mell          28.01%    failed      0.00%
+  19  Meav          46.46%    failed      0.00%
+  20  Meco          50.38%    failed      0.00%
+  21  Memo          50.38%    failed      0.00%
+  22  Met1          35.78%    failed      0.00%
+  23  Tup1          33.82%    failed      0.00%
+  24  Terr          43.18%    failed      0.39%
+  25  Kroo          27.95%    failed      0.00%
+  26  Indi          44.21%    failed      0.70%
+  27  Ac19          27.93%    failed      0.00%
+  28  Amaz          27.93%    failed      0.00%
+  29  Bomb          27.93%    failed      0.00%
+  30  Kasa          27.93%    failed      0.00%
+  31  Mibo          27.93%    failed      0.00%
+  32  Nivi          27.93%    failed      0.00%
+  33  Savi          27.93%    failed      0.00%
+  34  Shir          27.93%    failed      0.00%
+  35  Hist          27.93%    failed      0.00%
+  36  Mite          28.93%    failed      0.00%
+  37  Oyst          27.93%    failed      0.00%
+  38  Acle          28.93%    failed      0.00%
+  39  Acma          28.93%    failed      0.00%
+  40  Cato          33.25%    failed      0.00%
+  41  Mogo          45.11%    failed      0.00%
+  42  Barr          52.59%    failed      4.04%
+  43  Harv          36.07%    passed     58.31%
+  44  Klos          52.51%    failed      0.00%
+  45  Hype          42.92%    passed     38.68%
+  46  Drel          41.76%    passed     38.22%
+  47  Fadolivirus   42.64%    failed      0.05%
+  48  Tetr          45.33%    failed      0.06%
+  49  Solu          42.17%    passed     47.86%
+  50  cPacV-1605    42.35%    failed      0.00%
+  51  Noum          44.54%    failed      0.00%
+  52  Laus          44.71%    failed      0.00%
+  53  Brma          44.63%    failed      0.00%
+  54  Mama          44.58%    failed      0.00%
+  55  Me06          44.54%    failed      0.00%
+  56  Tufo          45.19%    failed      0.00%
+  57  Tokv          44.87%    failed      0.00%
+  58  PkV-RF01      38.32%    failed      0.00%
+  59  Mebu          55.33%    failed      0.00%
+  60  Caro          38.23%    failed      0.00%
+  61  BsVi          36.00%    failed      0.00%
+  62  Hoko          33.88%    failed      0.00%
+  63  Chqi          45.63%    failed      0.01%
+  64  Auan          42.17%    failed      0.00%
+  65  ChoanoV1      37.93%    failed      0.00%
+  66  mPacV-611     42.96%    failed      0.00%
+  67  Inr5          36.77%    failed      0.00%
+  68  Inr2          36.75%    failed      0.00%
+  69  Gaea          70.13%    failed      0.00%
+  70  Asc2          41.30%    failed      0.00%
+  71  DishA         49.79%    failed      0.34%
+  72  Ph14          41.80%    failed      0.00%
+  73  Ph15          41.80%    failed      0.00%
+  74  Asc3          41.28%    failed      0.00%
+  75  Chgi          48.63%    failed      0.00%
+  76  Asc5          41.30%    failed      0.00%
+  77  Inr4          42.33%    failed      0.01%
+  78  Cher          37.16%    failed      0.00%
+  79  Rama          48.35%    failed      0.00%
+  80  Wiir          42.96%    failed      0.00%
+  81  Chpa          41.13%    failed      0.00%
+  82  OrLa          44.82%    failed      0.00%
+  83  Spod          41.98%    failed      0.00%
+  84  Trin          41.36%    failed      0.00%
+  85  Tric          42.40%    failed      0.00%
+  86  Arvu          37.69%    failed      0.80%
+  87  Inr1          42.74%    failed      0.03%
+  88  Plc8          46.31%    failed      0.00%
+  89  Pisi          46.31%    failed      0.00%
+  90  Or07          51.92%    failed      0.00%
+  91  oPacV-421     43.05%    failed      0.00%
+  92  oPacV-662     47.51%    failed      1.36%
+  93  Orph          45.26%    failed      1.82%
+  94  Scad          48.32%    failed      0.00%
+  95  Prog          48.81%    failed      0.00%
+  96  Pacm          37.82%    passed     41.78%
+  97  Af23          42.61%    failed      0.00%
+  98  Af22          42.61%    failed      0.00%
+  99  Afsw          42.68%    failed      0.00%
+ 100  Fau1          38.17%    failed      0.00%
+ 101  Fau3          38.17%    failed      0.00%
+ 102  Fau4          38.17%    failed      0.00%
+ 103  Kaum          42.17%    passed      6.71%
+ 104  Flc9          37.97%    failed      0.00%
+ 105  Fau2          37.97%    failed      4.99%
+ 106  Fau5          37.97%    failed      4.99%
+ 107  Fau6          37.97%    failed      4.99%
+ 108  Fe24          37.97%    failed      4.99%
+ 109  Anmi          47.47%    failed      0.49%
+ 110  Diad          45.79%    failed      0.00%
+ 111  Milo          36.51%    failed      0.00%
+ 112  Soli          49.01%    failed      0.08%
+ 113  Gold          60.73%    failed      0.03%
+ 114  Pasa          42.02%    failed      0.00%
+ 115  Pain          44.85%    failed      0.00%
+ 116  Padu          42.99%    failed      0.00%
+ 117  Paqu          50.65%    failed      0.00%
+ 118  Heak          54.37%    failed      0.00%
+ 119  Papa          50.62%    failed      0.00%
+ 120  Pabr          52.42%    failed      0.00%
+ 121  Pama          41.85%    failed      0.00%
+ 122  Pane          41.78%    failed      0.00%
+ 123  Pass          42.52%    failed      0.00%
+ 124  CeA1          52.51%    failed      0.01%
+ 125  BCed          56.75%    failed      0.02%
+ 126  CeLa          52.33%    failed      0.00%
+ 127  Zaza          56.80%    failed      0.07%
+ 128  Tavi          54.50%    failed      0.00%
+ 129  Cavi          54.50%    failed      0.00%
+ 130  Osme          51.87%    failed      0.06%
+ 131  Ost5          51.87%    failed      0.07%
+ 132  Ost1          46.22%    failed      0.00%
+ 133  Racv          54.56%    failed      0.00%
+ 134  Ost2          54.76%    failed      0.06%
+ 135  Os09          51.83%    failed      0.08%
+ 136  Os01          51.83%    failed      0.06%
+ 137  Os07          51.76%    failed      0.43%
+ 138  Os08          55.33%    failed      0.62%
+ 139  Micr          52.15%    failed      0.84%
+ 140  Yoka          54.26%    failed      0.00%
+ 141  Yel3          55.83%    failed      0.00%
+ 142  Yel4          69.91%    failed      0.00%
+ 143  Yel2          54.43%    failed      0.00%
+ 144  Dish2         52.24%    failed      0.00%
+ 145  Devi          54.50%    failed      0.00%
+ 146  Ac22          52.22%    failed      0.00%
+ 147  Actu          52.22%    failed      0.00%
+ 148  Ac21          52.22%    failed      0.00%
+ 149  Bavi          52.57%    failed      1.84%
+ 150  Dish3         52.02%    failed      0.04%
+ 151  Dish4         48.39%    passed      9.69%
+ 152  Pab4          54.56%    failed      1.53%
+ 153  Pab2          54.59%    failed      1.19%
+ 154  Pab3          54.59%    failed      0.93%
+ 155  Pabu          54.67%    failed      0.06%
+ 156  Pa09          51.91%    failed      0.00%
+ 157  Dish          52.02%    failed      0.00%
+ 158  moka          40.91%    failed      0.00%
+ 159  Mosi          41.34%    failed      0.00%
+ 160  Ecsi          52.81%    failed      0.00%
+ 161  Esil          52.81%    failed      0.00%
+ 162  Ac20          53.47%    failed      0.00%
+ 163  Fesp          62.11%    failed      0.00%
+ 164  Feir          62.60%    failed      0.00%
+ 165  PS401         51.41%    failed      0.00%
+ 166  Edaf          51.57%    failed      1.61%
+ 167  Medus         51.89%    failed      0.00%
+ 168  Em27          54.56%    failed      0.00%
+ 169  Em25          54.56%    failed      0.00%
+ 170  Em26          54.56%    failed      0.00%
+ 171  Daso          49.71%    failed      0.00%
+ 172  Megt          48.94%    failed      0.00%
+WARNING: 60 sequences contain more than 50% gaps/ambiguity
+****  TOTAL         44.68%  165 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Met4 is identical to Meba but kept for subsequent analysis
+NOTE: Memo is identical to Meco but kept for subsequent analysis
+NOTE: Amaz is identical to Ac19 but kept for subsequent analysis
+NOTE: Acma is identical to Acle but kept for subsequent analysis
+NOTE: Fau3 is identical to Fau1 but kept for subsequent analysis
+NOTE: Fau5 is identical to Fau2 but kept for subsequent analysis
+NOTE: Esil is identical to Ecsi but kept for subsequent analysis
+NOTE: Em26 is identical to Em25 but kept for subsequent analysis
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Bomb (identical to Ac19) is ignored but added at the end
+NOTE: Kasa (identical to Ac19) is ignored but added at the end
+NOTE: Mibo (identical to Ac19) is ignored but added at the end
+NOTE: Nivi (identical to Ac19) is ignored but added at the end
+NOTE: Savi (identical to Ac19) is ignored but added at the end
+NOTE: Shir (identical to Ac19) is ignored but added at the end
+NOTE: Fau4 (identical to Fau1) is ignored but added at the end
+NOTE: Fau6 (identical to Fau2) is ignored but added at the end
+NOTE: Fe24 (identical to Fau2) is ignored but added at the end
+Alignment was printed to NCVOGs5_references_mafft01.concat.faa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to NCVOGs5_references_mafft01.concat.faa.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.762 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 234384)...
+
+NOTE: 1117 MB RAM (1 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+2 trees examined
+Threads: 1 / Time: 15.879 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -930697
+Threads: 2 / Time: 7.991 sec / Speedup: 1.987 / Efficiency: 99% / LogL: -930697
+Threads: 3 / Time: 5.612 sec / Speedup: 2.829 / Efficiency: 94% / LogL: -930697
+Threads: 4 / Time: 4.376 sec / Speedup: 3.629 / Efficiency: 91% / LogL: -930697
+Threads: 5 / Time: 5.917 sec / Speedup: 2.683 / Efficiency: 54% / LogL: -930697
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -497057.168
+2. Current log-likelihood: -482833.795
+3. Current log-likelihood: -482648.254
+4. Current log-likelihood: -482641.792
+5. Current log-likelihood: -482637.997
+6. Current log-likelihood: -482635.321
+7. Current log-likelihood: -482633.243
+8. Current log-likelihood: -482631.559
+9. Current log-likelihood: -482630.144
+10. Current log-likelihood: -482628.916
+11. Current log-likelihood: -482627.819
+12. Current log-likelihood: -482626.825
+13. Current log-likelihood: -482625.914
+14. Current log-likelihood: -482624.954
+15. Current log-likelihood: -482624.010
+16. Current log-likelihood: -482623.143
+17. Current log-likelihood: -482622.337
+18. Current log-likelihood: -482621.588
+19. Current log-likelihood: -482620.882
+20. Current log-likelihood: -482620.210
+21. Current log-likelihood: -482619.571
+22. Current log-likelihood: -482618.961
+23. Current log-likelihood: -482618.388
+24. Current log-likelihood: -482617.834
+25. Current log-likelihood: -482617.283
+26. Current log-likelihood: -482616.764
+27. Current log-likelihood: -482616.254
+28. Current log-likelihood: -482615.759
+29. Current log-likelihood: -482615.261
+30. Current log-likelihood: -482614.761
+31. Current log-likelihood: -482614.261
+32. Current log-likelihood: -482613.760
+33. Current log-likelihood: -482613.287
+34. Current log-likelihood: -482612.834
+35. Current log-likelihood: -482612.329
+36. Current log-likelihood: -482611.826
+37. Current log-likelihood: -482611.331
+38. Current log-likelihood: -482610.820
+39. Current log-likelihood: -482610.280
+40. Current log-likelihood: -482609.763
+41. Current log-likelihood: -482609.246
+42. Current log-likelihood: -482608.735
+43. Current log-likelihood: -482608.231
+44. Current log-likelihood: -482607.814
+45. Current log-likelihood: -482607.438
+46. Current log-likelihood: -482607.105
+47. Current log-likelihood: -482606.819
+48. Current log-likelihood: -482606.547
+49. Current log-likelihood: -482606.299
+50. Current log-likelihood: -482606.067
+51. Current log-likelihood: -482605.847
+52. Current log-likelihood: -482605.667
+53. Current log-likelihood: -482605.483
+54. Current log-likelihood: -482605.315
+55. Current log-likelihood: -482605.176
+56. Current log-likelihood: -482605.021
+57. Current log-likelihood: -482604.911
+58. Current log-likelihood: -482604.811
+Optimal log-likelihood: -482604.659
+Site proportion and rates:  (0.023,0.035) (0.024,0.122) (0.073,0.245) (0.149,0.406) (0.203,0.657) (0.277,1.067) (0.215,1.670) (0.037,3.564)
+Parameters optimization took 58 rounds (1926.626 sec)
+Computing ML distances based on estimated model parameters... 9.235 sec
+Computing BIONJ tree...
+0.019 seconds
+Log-likelihood of BIONJ tree: -483808.299
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 71.424 second
+Computing log-likelihood of 98 initial trees ... 201.379 seconds
+Current best score: -482604.659
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -482347.496
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -482339.994
+Iteration 10 / LogL: -482348.731 / Time: 0h:48m:6s
+Iteration 20 / LogL: -482348.731 / Time: 0h:55m:10s
+Finish initializing candidate tree set (4)
+Current best tree score: -482339.994 / CPU time: 1311.571
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -483657.584 / Time: 1h:2m:39s (2h:35m:29s left)
+Iteration 40 / LogL: -482351.427 / Time: 1h:10m:37s (1h:52m:14s left)
+Iteration 50 / LogL: -482373.742 / Time: 1h:18m:23s (1h:23m:9s left)
+Log-likelihood cutoff on original alignment: -482403.468
+Iteration 60 / LogL: -482350.777 / Time: 1h:25m:48s (1h:1m:4s left)
+Iteration 70 / LogL: -482348.626 / Time: 1h:32m:49s (0h:43m:2s left)
+Iteration 80 / LogL: -482431.682 / Time: 1h:40m:7s (0h:27m:52s left)
+Iteration 90 / LogL: -482345.652 / Time: 1h:47m:22s (0h:14m:28s left)
+Iteration 100 / LogL: -482365.842 / Time: 1h:54m:37s (0h:2m:18s left)
+Log-likelihood cutoff on original alignment: -482403.468
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 1h:56m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -482339.994
+2. Current log-likelihood: -482339.876
+3. Current log-likelihood: -482339.671
+4. Current log-likelihood: -482339.441
+5. Current log-likelihood: -482339.231
+6. Current log-likelihood: -482339.017
+7. Current log-likelihood: -482338.809
+8. Current log-likelihood: -482338.658
+9. Current log-likelihood: -482338.457
+10. Current log-likelihood: -482338.277
+11. Current log-likelihood: -482338.090
+12. Current log-likelihood: -482337.910
+13. Current log-likelihood: -482337.733
+14. Current log-likelihood: -482337.553
+15. Current log-likelihood: -482337.427
+16. Current log-likelihood: -482337.274
+17. Current log-likelihood: -482337.155
+18. Current log-likelihood: -482337.043
+19. Current log-likelihood: -482336.863
+20. Current log-likelihood: -482336.704
+21. Current log-likelihood: -482336.528
+22. Current log-likelihood: -482336.371
+23. Current log-likelihood: -482336.257
+24. Current log-likelihood: -482336.095
+25. Current log-likelihood: -482335.934
+26. Current log-likelihood: -482335.820
+27. Current log-likelihood: -482335.719
+28. Current log-likelihood: -482335.622
+29. Current log-likelihood: -482335.460
+30. Current log-likelihood: -482335.318
+31. Current log-likelihood: -482335.222
+32. Current log-likelihood: -482335.064
+33. Current log-likelihood: -482334.957
+34. Current log-likelihood: -482334.866
+35. Current log-likelihood: -482334.725
+36. Current log-likelihood: -482334.627
+37. Current log-likelihood: -482334.540
+38. Current log-likelihood: -482334.470
+39. Current log-likelihood: -482334.398
+40. Current log-likelihood: -482334.261
+41. Current log-likelihood: -482334.132
+42. Current log-likelihood: -482334.047
+43. Current log-likelihood: -482333.929
+44. Current log-likelihood: -482333.836
+45. Current log-likelihood: -482333.767
+46. Current log-likelihood: -482333.698
+47. Current log-likelihood: -482333.630
+48. Current log-likelihood: -482333.563
+49. Current log-likelihood: -482333.497
+50. Current log-likelihood: -482333.369
+51. Current log-likelihood: -482333.279
+52. Current log-likelihood: -482333.215
+53. Current log-likelihood: -482333.150
+54. Current log-likelihood: -482333.085
+55. Current log-likelihood: -482333.022
+56. Current log-likelihood: -482332.912
+57. Current log-likelihood: -482332.830
+58. Current log-likelihood: -482332.769
+59. Current log-likelihood: -482332.707
+60. Current log-likelihood: -482332.649
+61. Current log-likelihood: -482332.589
+62. Current log-likelihood: -482332.530
+63. Current log-likelihood: -482332.472
+64. Current log-likelihood: -482332.362
+65. Current log-likelihood: -482332.270
+66. Current log-likelihood: -482332.214
+67. Current log-likelihood: -482332.156
+68. Current log-likelihood: -482332.099
+69. Current log-likelihood: -482332.042
+70. Current log-likelihood: -482331.986
+71. Current log-likelihood: -482331.930
+72. Current log-likelihood: -482331.838
+73. Current log-likelihood: -482331.781
+74. Current log-likelihood: -482331.725
+75. Current log-likelihood: -482331.670
+76. Current log-likelihood: -482331.616
+77. Current log-likelihood: -482331.562
+78. Current log-likelihood: -482331.508
+79. Current log-likelihood: -482331.455
+80. Current log-likelihood: -482331.415
+81. Current log-likelihood: -482331.361
+82. Current log-likelihood: -482331.320
+83. Current log-likelihood: -482331.267
+84. Current log-likelihood: -482331.217
+85. Current log-likelihood: -482331.176
+86. Current log-likelihood: -482331.123
+87. Current log-likelihood: -482331.072
+88. Current log-likelihood: -482331.039
+89. Current log-likelihood: -482330.987
+90. Current log-likelihood: -482330.948
+91. Current log-likelihood: -482330.896
+92. Current log-likelihood: -482330.856
+93. Current log-likelihood: -482330.805
+94. Current log-likelihood: -482330.766
+95. Current log-likelihood: -482330.715
+96. Current log-likelihood: -482330.665
+97. Current log-likelihood: -482330.626
+98. Current log-likelihood: -482330.575
+99. Current log-likelihood: -482330.526
+Optimal log-likelihood: -482330.526
+Site proportion and rates:  (0.020,0.029) (0.023,0.103) (0.074,0.238) (0.150,0.404) (0.202,0.652) (0.283,1.063) (0.213,1.681) (0.035,3.626)
+Parameters optimization took 99 rounds (2332.608 sec)
+BEST SCORE FOUND : -482330.526
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+12.662 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file NCVOGs5_references_mafft01.concat.faa.splits.nex
+Total tree length: 89.614
+
+Total number of iterations: 103
+CPU time used for tree search: 19722.597 sec (5h:28m:42s)
+Wall-clock time used for tree search: 5006.652 sec (1h:23m:26s)
+Total CPU time used: 36333.152 sec (10h:5m:33s)
+Total wall-clock time used: 9351.414 sec (2h:35m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file NCVOGs5_references_mafft01.concat.faa.splits.nex...
+163 taxa and 415 splits.
+Consensus tree written to NCVOGs5_references_mafft01.concat.faa.contree
+Reading input trees file NCVOGs5_references_mafft01.concat.faa.contree
+Log-likelihood of consensus tree: -482340.455
+
+Analysis results written to: 
+  IQ-TREE report:                NCVOGs5_references_mafft01.concat.faa.iqtree
+  Maximum-likelihood tree:       NCVOGs5_references_mafft01.concat.faa.treefile
+  Likelihood distances:          NCVOGs5_references_mafft01.concat.faa.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NCVOGs5_references_mafft01.concat.faa.splits.nex
+  Consensus tree:                NCVOGs5_references_mafft01.concat.faa.contree
+  Screen log file:               NCVOGs5_references_mafft01.concat.faa.log
+
+Date and Time: Tue Feb  2 14:25:39 2021
